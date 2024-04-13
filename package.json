@@ -52,7 +52,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "build:storybook": "build-storybook -o build-storybook && node scripts/draco-storybook",
     "deploy": "aws s3 sync --delete build/ s3://shoaib.portfolio",
     "deploy:storybook": "aws s3 sync --delete build-storybook s3://ev1shoaib-portfolio-storybook",
